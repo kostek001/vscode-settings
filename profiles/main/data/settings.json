@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Sweet Dracula Monokai",
+    "editor.fontFamily": "'FiraCode Nerd Font'",
+    "redhat.telemetry.enabled": false,
+    "nix.enableLanguageServer": true,
+    "nix.serverPath": "nil"
+}

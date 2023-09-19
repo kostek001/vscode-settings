@@ -1,0 +1,62 @@
+disabled: []
+enabled:
+  - id: alefragnani.project-manager
+    uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
+  - id: arcensoth.language-mcfunction
+    uuid: 7612f7c1-8cc2-4f64-b1f6-9ed6b3436ba1
+  - id: BriteSnow.vscode-toggle-quotes
+    uuid: 8d088af2-ecd1-4b8f-93e9-322125c47b3c
+  - id: formulahendry.auto-rename-tag
+    uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
+  - id: jnoortheen.nix-ide
+    uuid: 0ffebccd-4265-4f2d-a855-db1adcf278c7
+  - id: johnpapa.vscode-peacock
+    uuid: 5a7017bf-c571-4d77-b902-6e56b16f539a
+  - id: keesschollaart.vscode-home-assistant
+    uuid: d2d3c048-6fab-4e8f-a618-c1b9559cfd56
+  - id: lefd.sweetdracula-monokai
+    uuid: ec34bb72-0f59-41c0-abbd-6991596db28e
+  - id: lukas-tr.materialdesignicons-intellisense
+    uuid: 6bddf0ae-fff2-4b40-9091-3361abfb87d4
+  - id: moshfeu.diff-merge
+    uuid: 68b929c5-4adb-451b-9ce0-d2797f56b925
+  - id: MS-CEINTL.vscode-language-pack-pl
+    uuid: 86a74364-8229-484d-b248-d00169c9152d
+  - id: ms-python.isort
+    uuid: 4ad0ce32-ff3f-49f0-83b5-93e5dc00cfff
+  - id: ms-python.python
+    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-python.vscode-pylance
+    uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
+  - id: ms-vscode.cmake-tools
+    uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
+  - id: ms-vscode.cpptools
+    uuid: 690b692e-e8a9-493f-b802-8089d50ac1b2
+  - id: ms-vscode.cpptools-extension-pack
+    uuid: 3957b2f6-f086-49b5-a7b4-5da772123130
+  - id: ms-vscode.hexeditor
+    uuid: cc7d2112-5178-4472-8e0e-25dced95e7f0
+  - id: platformio.platformio-ide
+    uuid: 6cf182b2-70cf-433e-97f2-45f414c9ad89
+  - id: pranaygp.vscode-css-peek
+    uuid: 0b8f8d63-11a2-4194-969c-ca7488b3413a
+  - id: redhat.vscode-yaml
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: ritwickdey.LiveServer
+    uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
+  - id: shd101wyy.markdown-preview-enhanced
+    uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
+  - id: SPGoding.datapack-language-server
+    uuid: e292445f-672b-4c42-bb71-510fb88fcf8e
+  - id: svelte.svelte-vscode
+    uuid: c5463f77-75d9-4a25-8cc4-d8541a461285
+  - id: twxs.cmake
+    uuid: 2be7cf14-2603-402e-9771-fd79df83cdf8
+  - id: wix.vscode-import-cost
+    uuid: c46b0018-f317-4b6c-a785-d2039b27338f
+  - id: yoavbls.pretty-ts-errors
+    uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
+  - id: zjffun.snippetsmanager
+    uuid: 793158dc-f506-436a-a091-cbf664be9817
+  - id: zokugun.cron-tasks
+    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
