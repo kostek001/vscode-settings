@@ -1,4 +1,8 @@
-disabled: []
+disabled:
+  - id: ms-vscode.cmake-tools
+    uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
+  - id: twxs.cmake
+    uuid: 2be7cf14-2603-402e-9771-fd79df83cdf8
 enabled:
   - id: alefragnani.project-manager
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
@@ -6,6 +10,8 @@ enabled:
     uuid: 7612f7c1-8cc2-4f64-b1f6-9ed6b3436ba1
   - id: BriteSnow.vscode-toggle-quotes
     uuid: 8d088af2-ecd1-4b8f-93e9-322125c47b3c
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: formulahendry.auto-rename-tag
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
   - id: jnoortheen.nix-ide
@@ -28,8 +34,6 @@ enabled:
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-python.vscode-pylance
     uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
-  - id: ms-vscode.cmake-tools
-    uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
   - id: ms-vscode.cpptools
     uuid: 690b692e-e8a9-493f-b802-8089d50ac1b2
   - id: ms-vscode.cpptools-extension-pack
@@ -50,8 +54,6 @@ enabled:
     uuid: e292445f-672b-4c42-bb71-510fb88fcf8e
   - id: svelte.svelte-vscode
     uuid: c5463f77-75d9-4a25-8cc4-d8541a461285
-  - id: twxs.cmake
-    uuid: 2be7cf14-2603-402e-9771-fd79df83cdf8
   - id: wix.vscode-import-cost
     uuid: c46b0018-f317-4b6c-a785-d2039b27338f
   - id: yoavbls.pretty-ts-errors

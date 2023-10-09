@@ -3,5 +3,19 @@
     "editor.fontFamily": "'FiraCode Nerd Font'",
     "redhat.telemetry.enabled": false,
     "nix.enableLanguageServer": true,
-    "nix.serverPath": "nil"
+    "nix.serverPath": "nil",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "cmake.configureOnOpen": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.bracketSameLine": true,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2 }",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "window.experimental.nativeContextMenuLocation": false,
+    "[nix]": {
+        "editor.defaultFormatter": "jnoortheen.nix-ide"
+    }
 }
