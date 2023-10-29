@@ -8,8 +8,12 @@ enabled:
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
   - id: arcensoth.language-mcfunction
     uuid: 7612f7c1-8cc2-4f64-b1f6-9ed6b3436ba1
+  - id: bradlc.vscode-tailwindcss
+    uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: BriteSnow.vscode-toggle-quotes
     uuid: 8d088af2-ecd1-4b8f-93e9-322125c47b3c
+  - id: christian-kohler.path-intellisense
+    uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: formulahendry.auto-rename-tag
@@ -22,6 +26,8 @@ enabled:
     uuid: d2d3c048-6fab-4e8f-a618-c1b9559cfd56
   - id: lefd.sweetdracula-monokai
     uuid: ec34bb72-0f59-41c0-abbd-6991596db28e
+  - id: LeonardSSH.vscord
+    uuid: 20675c06-f272-4cc8-8611-83ebb5583c5a
   - id: lukas-tr.materialdesignicons-intellisense
     uuid: 6bddf0ae-fff2-4b40-9091-3361abfb87d4
   - id: moshfeu.diff-merge

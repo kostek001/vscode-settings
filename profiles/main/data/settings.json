@@ -1,21 +1,46 @@
 {
-    "workbench.colorTheme": "Sweet Dracula Monokai",
-    "editor.fontFamily": "'FiraCode Nerd Font'",
-    "redhat.telemetry.enabled": false,
-    "nix.enableLanguageServer": true,
-    "nix.serverPath": "nil",
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": false,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "cmake.configureOnOpen": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.bracketSameLine": true,
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2 }",
-    "[cpp]": {
-        "editor.defaultFormatter": "ms-vscode.cpptools"
-    },
-    "window.experimental.nativeContextMenuLocation": false,
-    "[nix]": {
-        "editor.defaultFormatter": "jnoortheen.nix-ide"
+  "workbench.colorTheme": "Sweet Dracula Monokai",
+  "editor.fontFamily": "'FiraCode Nerd Font'",
+  "redhat.telemetry.enabled": false,
+  "nix.serverPath": "nil",
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "cmake.configureOnOpen": false,
+  "prettier.bracketSameLine": true,
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2 }",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "window.experimental.nativeContextMenuLocation": false,
+  "[nix]": {
+    "editor.defaultFormatter": "jnoortheen.nix-ide"
+  },
+  "svelte.enable-ts-plugin": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "nix.serverSettings": {
+    "nil": {
+      "diagnostics": {
+        "ignored": ["unused_binding", "unused_with"]
+      },
+      "formatting": {
+        "command": ["nixpkgs-fmt"]
+      }
     }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "nix.enableLanguageServer": true,
+  "vscord.app.name": "VSCodium",
+  "vscord.status.problems.enabled": false,
+  "vscord.ignore.workspacesText": "",
+  "vscord.status.details.text.noWorkSpaceText": "file",
+  "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
+  "vscord.status.state.idle.enabled": false
 }
