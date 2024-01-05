@@ -12,7 +12,9 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "window.experimental.nativeContextMenuLocation": false,
+  "window.titleBarStyle": "native",
+  "window.experimental.nativeContextMenuLocation": true,
+  "window.zoomLevel": 0,
   "[nix]": {
     "editor.defaultFormatter": "jnoortheen.nix-ide"
   },
@@ -45,5 +47,18 @@
   "vscord.status.state.idle.enabled": false,
   "syncSettings.additionalFiles": [
     "~globalStorage/../../product.json",
-  ]
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "[postcss]": {},
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
