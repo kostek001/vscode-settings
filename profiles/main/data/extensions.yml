@@ -66,7 +66,7 @@ enabled:
     uuid: c5463f77-75d9-4a25-8cc4-d8541a461285
   - id: wix.vscode-import-cost
     uuid: c46b0018-f317-4b6c-a785-d2039b27338f
-  - id: yoavbls.pretty-ts-errors
+  - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: zjffun.snippetsmanager
     uuid: 793158dc-f506-436a-a091-cbf664be9817
