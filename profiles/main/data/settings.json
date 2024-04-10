@@ -2,9 +2,8 @@
   "workbench.colorTheme": "Sweet Dracula Monokai",
   "editor.fontFamily": "'FiraCode Nerd Font'",
   "redhat.telemetry.enabled": false,
-  "nix.serverPath": "nil",
+  "nix.serverPath": "nixd",
   "editor.tabSize": 2,
-  "editor.minimap.enabled": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "cmake.configureOnOpen": false,
   "prettier.bracketSameLine": true,
@@ -12,8 +11,7 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "window.titleBarStyle": "native",
-  "window.experimental.nativeContextMenuLocation": true,
+  "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
   "[nix]": {
     "editor.defaultFormatter": "jnoortheen.nix-ide"
@@ -26,12 +24,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "nix.serverSettings": {
-    "nil": {
-      "diagnostics": {
-        "ignored": ["unused_binding", "unused_with"]
-      },
+    "nixd": {
       "formatting": {
-        "command": ["nixpkgs-fmt"]
+        "command": "nixpkgs-fmt"
       }
     }
   },
@@ -45,9 +40,7 @@
   "vscord.status.details.text.noWorkSpaceText": "file",
   "vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
   "vscord.status.state.idle.enabled": false,
-  "syncSettings.additionalFiles": [
-    "~globalStorage/../../product.json",
-  ],
+  "syncSettings.additionalFiles": ["~globalStorage/../../product.json"],
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -60,5 +53,16 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.stickyScroll.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false
 }
