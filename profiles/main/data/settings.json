@@ -11,7 +11,6 @@
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
   "[nix]": {
     "editor.defaultFormatter": "jnoortheen.nix-ide"
@@ -25,8 +24,11 @@
   },
   "nix.serverSettings": {
     "nixd": {
+      "diagnostic": {
+        "suppress": ["sema-escaping-with"]
+      },
       "formatting": {
-        "command": "nixpkgs-fmt"
+        "command": ["nixpkgs-fmt"]
       }
     }
   },
@@ -64,5 +66,20 @@
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "typescript.suggest.paths": false,
-  "javascript.suggest.paths": false
+  "javascript.suggest.paths": false,
+  "git.openRepositoryInParentFolders": "never",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "editor.detectIndentation": false,
+  "window.titleBarStyle": "custom",
+  "vscord.status.buttons.button1.git.active.enabled": false,
+  "vscord.status.buttons.button1.git.idle.enabled": false,
+  "vscord.status.buttons.button1.git.inactive.enabled": false,
+  "vscord.status.state.text.idle": "Idling",
+  "vscord.status.state.text.notInFile": "Not in a file!",
+  "vscord.status.details.enabled": false,
+  "vscord.status.state.debugging.enabled": false,
+  "vscord.status.buttons.button1.active.label": "Co-op Mode",
+  "vscord.status.buttons.button1.active.url": "https://mrtechtroid.github.io/r/edit/17d774cc-806c-4d4c-bc40-688c7dd20b16",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.theme": "none"
 }
