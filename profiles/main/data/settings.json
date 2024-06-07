@@ -81,5 +81,8 @@
   "vscord.status.buttons.button1.active.label": "Co-op Mode",
   "vscord.status.buttons.button1.active.url": "https://mrtechtroid.github.io/r/edit/17d774cc-806c-4d4c-bc40-688c7dd20b16",
   "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.folders.theme": "none"
+  "material-icon-theme.folders.theme": "none",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  }
 }
