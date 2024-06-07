@@ -8,6 +8,8 @@ enabled:
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
   - id: arcensoth.language-mcfunction
     uuid: 7612f7c1-8cc2-4f64-b1f6-9ed6b3436ba1
+  - id: arrterian.nix-env-selector
+    uuid: 7d5f2292-e10e-4cd3-84b7-f8c9a551f845
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: BriteSnow.vscode-toggle-quotes
@@ -38,6 +40,8 @@ enabled:
     uuid: 68b929c5-4adb-451b-9ce0-d2797f56b925
   - id: MS-CEINTL.vscode-language-pack-pl
     uuid: 86a74364-8229-484d-b248-d00169c9152d
+  - id: ms-python.autopep8
+    uuid: 5a21b0c3-89ca-46dd-8ada-658518fb94a5
   - id: ms-python.isort
     uuid: 4ad0ce32-ff3f-49f0-83b5-93e5dc00cfff
   - id: ms-python.python
