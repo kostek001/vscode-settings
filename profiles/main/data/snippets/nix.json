@@ -12,8 +12,8 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "shell.nix mkShell": {
-    "prefix": "shell.nix mkShell",
+  "nix-shell mkShell": {
+    "prefix": "nix-shell mkShell",
     "body": [
       "{ pkgs ? import <nixpkgs> { } }:",
       "pkgs.mkShell {",
@@ -22,6 +22,29 @@
       "  ];",
       "}"
     ],
-    "description": "Log output to console"
+    "description": "Create blank mkShell for nix-shell"
+  },
+
+  "Blank module": {
+    "prefix": "Blank module",
+    "body": [
+		"{ config, pkgs, lib, ... }:",
+		"with lib;",
+		"",
+		"let",
+		"  cfg = config.$1;",
+		"in",
+		"{",
+		"  options.$1 = {",
+		"    enable = mkEnableOption \"$2\";",
+		"  };",
+		"",
+		"  config = mkIf cfg.enable {",
+		"    $0",
+		"  };",
+		"}",
+		""
+	],
+    "description": "Create blank NixOS module"
   }
 }

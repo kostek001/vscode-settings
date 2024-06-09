@@ -84,5 +84,6 @@
   "material-icon-theme.folders.theme": "none",
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
-  }
+  },
+  "diffEditor.ignoreTrimWhitespace": false
 }
