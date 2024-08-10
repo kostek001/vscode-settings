@@ -12,8 +12,8 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-  "nix-shell mkShell": {
-    "prefix": "nix-shell mkShell",
+  "mkShell": {
+    "prefix": "mkShell",
     "body": [
       "{ pkgs ? import <nixpkgs> { } }:",
       "pkgs.mkShell {",
@@ -22,29 +22,42 @@
       "  ];",
       "}"
     ],
-    "description": "Create blank mkShell for nix-shell"
+    "description": "Template for mkShell"
   },
-
+  "buildFHSEnv": {
+    "prefix": "buildFHSEnv",
+    "body": [
+      "{ pkgs ? import <nixpkgs> {} }:",
+      "(pkgs.buildFHSEnv {",
+      "  name = \"$1\";",
+      "  targetPkgs = pkgs: with pkgs;[",
+      "    $2",
+      "  ];",
+      "  runScript = \"bash\";",
+      "}).env"
+    ],
+    "description": "Template for buildFHSEnv"
+  },
   "Blank module": {
     "prefix": "Blank module",
     "body": [
-		"{ config, pkgs, lib, ... }:",
-		"with lib;",
-		"",
-		"let",
-		"  cfg = config.$1;",
-		"in",
-		"{",
-		"  options.$1 = {",
-		"    enable = mkEnableOption \"$2\";",
-		"  };",
-		"",
-		"  config = mkIf cfg.enable {",
-		"    $0",
-		"  };",
-		"}",
-		""
-	],
+      "{ config, pkgs, lib, ... }:",
+      "with lib;",
+      "",
+      "let",
+      "  cfg = config.$1;",
+      "in",
+      "{",
+      "  options.$1 = {",
+      "    enable = mkEnableOption \"$2\";",
+      "  };",
+      "",
+      "  config = mkIf cfg.enable {",
+      "    $0",
+      "  };",
+      "}",
+      ""
+    ],
     "description": "Create blank NixOS module"
   }
 }

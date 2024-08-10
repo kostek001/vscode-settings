@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Sweet Dracula Monokai",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "editor.fontFamily": "'FiraCode Nerd Font'",
   "redhat.telemetry.enabled": false,
   "nix.serverPath": "nixd",
@@ -80,10 +80,32 @@
   "vscord.status.state.debugging.enabled": false,
   "vscord.status.buttons.button1.active.label": "Co-op Mode",
   "vscord.status.buttons.button1.active.url": "https://mrtechtroid.github.io/r/edit/17d774cc-806c-4d4c-bc40-688c7dd20b16",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "catppuccin-mocha",
   "material-icon-theme.folders.theme": "none",
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
   },
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "hediet.vscode-drawio.resizeImages": null,
+  "autopep8.args": ["--indent-size=2"],
+  "sops.creationEnabled": true,
+  "workbench.startupEditor": "none",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "editor.minimap.enabled": false,
+  "sops.enabled": false,
+  "vscord.status.idle.timeout": 600,
+  "editor.formatOnSave": true
 }

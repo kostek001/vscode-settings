@@ -1,17 +1,25 @@
 disabled:
+  - id: arcensoth.language-mcfunction
+    uuid: 7612f7c1-8cc2-4f64-b1f6-9ed6b3436ba1
+  - id: MinecraftCommands.syntax-mcfunction
+    uuid: e03944ff-2185-4ada-a557-9a1038ed7c02
   - id: ms-vscode.cmake-tools
     uuid: 7c889349-8749-43d4-8b5e-08939936d7f4
+  - id: SPGoding.datapack-language-server
+    uuid: e292445f-672b-4c42-bb71-510fb88fcf8e
   - id: twxs.cmake
     uuid: 2be7cf14-2603-402e-9771-fd79df83cdf8
 enabled:
   - id: alefragnani.project-manager
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
-  - id: arcensoth.language-mcfunction
-    uuid: 7612f7c1-8cc2-4f64-b1f6-9ed6b3436ba1
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: BriteSnow.vscode-toggle-quotes
     uuid: 8d088af2-ecd1-4b8f-93e9-322125c47b3c
+  - id: Catppuccin.catppuccin-vsc
+    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
+  - id: Catppuccin.catppuccin-vsc-icons
+    uuid: 625b9abd-dfac-405b-bf34-e65f46e2f22f
   - id: christian-kohler.path-intellisense
     uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
   - id: esbenp.prettier-vscode
@@ -52,8 +60,6 @@ enabled:
     uuid: 3957b2f6-f086-49b5-a7b4-5da772123130
   - id: ms-vscode.hexeditor
     uuid: cc7d2112-5178-4472-8e0e-25dced95e7f0
-  - id: PKief.material-icon-theme
-    uuid: 5db78037-f674-459f-a236-db622c427c5b
   - id: platformio.platformio-ide
     uuid: 6cf182b2-70cf-433e-97f2-45f414c9ad89
   - id: pranaygp.vscode-css-peek
@@ -68,8 +74,8 @@ enabled:
     uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
   - id: shd101wyy.markdown-preview-enhanced
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
-  - id: SPGoding.datapack-language-server
-    uuid: e292445f-672b-4c42-bb71-510fb88fcf8e
+  - id: signageos.signageos-vscode-sops
+    uuid: e75c51f4-b445-4764-bfd9-110f0ae4dec9
   - id: streetsidesoftware.code-spell-checker
     uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: svelte.svelte-vscode
@@ -78,7 +84,5 @@ enabled:
     uuid: c46b0018-f317-4b6c-a785-d2039b27338f
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
-  - id: zjffun.snippetsmanager
-    uuid: 793158dc-f506-436a-a091-cbf664be9817
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
