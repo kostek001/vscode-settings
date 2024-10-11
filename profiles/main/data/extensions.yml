@@ -12,6 +12,8 @@ disabled:
 enabled:
   - id: alefragnani.project-manager
     uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
+  - id: arrterian.nix-env-selector
+    uuid: 7d5f2292-e10e-4cd3-84b7-f8c9a551f845
   - id: bradlc.vscode-tailwindcss
     uuid: 4db62a7c-7d70-419c-96d2-6c3a4dc77ea5
   - id: BriteSnow.vscode-toggle-quotes
@@ -58,6 +60,8 @@ enabled:
     uuid: 690b692e-e8a9-493f-b802-8089d50ac1b2
   - id: ms-vscode.cpptools-extension-pack
     uuid: 3957b2f6-f086-49b5-a7b4-5da772123130
+  - id: ms-vscode.cpptools-themes
+    uuid: 99b17261-8f6e-45f0-9ad5-a69c6f509a4f
   - id: ms-vscode.hexeditor
     uuid: cc7d2112-5178-4472-8e0e-25dced95e7f0
   - id: platformio.platformio-ide
@@ -76,13 +80,15 @@ enabled:
     uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
   - id: signageos.signageos-vscode-sops
     uuid: e75c51f4-b445-4764-bfd9-110f0ae4dec9
-  - id: streetsidesoftware.code-spell-checker
-    uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
   - id: svelte.svelte-vscode
     uuid: c5463f77-75d9-4a25-8cc4-d8541a461285
+  - id: Vue.volar
+    uuid: a95ee795-1576-4ffa-acda-8d6e6a95c584
+  - id: WakaTime.vscode-wakatime
+    uuid: f2fd462f-f1bd-4c62-b54f-59a4e5ffc6a3
   - id: wix.vscode-import-cost
     uuid: c46b0018-f317-4b6c-a785-d2039b27338f
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
   - id: zokugun.cron-tasks
-    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

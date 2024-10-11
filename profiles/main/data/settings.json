@@ -107,5 +107,9 @@
   "editor.minimap.enabled": false,
   "sops.enabled": false,
   "vscord.status.idle.timeout": 600,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false
 }
